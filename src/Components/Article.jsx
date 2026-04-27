@@ -28,6 +28,7 @@ const Article = () => {
           </p>
         </div>
 
+        {/* Share Footer Phone*/}
         <footer
           className={`px-6 py-4 h-20 flex items-center justify-between md:hidden transition-colors${isShareOpen ? " bg-very-dark-grayish-blue " : ""}`}
         >
@@ -67,6 +68,7 @@ const Article = () => {
           )}
         </footer>
 
+        {/* Share Footer Desktop*/}
         <footer className="px-6 pb-6 hidden md:block overflow-visible">
           <div className="mt-4 flex items-center justify-between relative">
             <div className="flex items-center gap-3">
